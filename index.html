@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bev's Pattern Maker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game">
+        <header>
+            <h3 class="heading js-heading hidden">Start button works, ya know.</h3>
+        </header>
+
+        <section class="tile-container js-container hidden"></section>
+        <section class="info-section js-info">
+          <label class="info-input">
+            <input type="text" id="picture" value="endoBonnie.png">
+            <span class="info-label">Picture</span>
+          </label><br />
+          <label class="info-input">
+            <input type="number" id="rowsInput" value="3" min="5" max="50">
+            <span class="info-label">Rows</span>
+          </label><br />
+          <label class="info-input">
+            <input type="number" id="colsInput" value="5" min="5" max="50">
+            <span class="info-label">Cols</span>
+          </label><br />
+          <button class="button start-button js-start">Start</button>
+        </section>
+
+        <footer>
+          <h3 class="footing js-footing hidden"></h3>
+        </footer>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
